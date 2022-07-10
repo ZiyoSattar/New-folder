@@ -1,0 +1,33 @@
+.about {
+  padding-bottom: 80px;
+}
+
+.about__inner {
+  background-image: url("/img/bg2.png");
+  background-repeat: no-repeat;
+  padding: 137px 0px 137px 85px;
+}
+
+.about__text {
+  max-width: 445px;
+  width: 100%;
+}
+
+.about__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.about__info {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+

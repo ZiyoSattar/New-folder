@@ -1,0 +1,76 @@
+.countries {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.countries__inner {
+  margin-left: 88px;
+}
+
+.countries__heading-main {
+  margin: 0;
+  margin-bottom: 72px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+
+.countries__list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+
+
+.countries__item:nth-child(2) {
+  margin-right: 148px;
+  margin-left: 108px;
+}
+
+.countries__img {
+  margin-bottom: 45px;
+}
+
+.countries__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.countries__info {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.countries__info li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.countries__info li a {
+  text-decoration: none;
+  color: #333D4B;
+}
+
+@media only screen and (max-width:990px) {
+  .countries__inner {
+    margin-left: 0;
+  }
+
+  .countries__item:nth-child(2) {
+    margin-right: 100px;
+    margin-left: 30px;
+  }
+} 
